@@ -5,19 +5,20 @@
 ### Business
 Start-up company Crypt wants to determine the predictability of crytpo and crypto related assets. Additionally, the company wants to compare the price action of traditional market ETFs to those following crypto. The goal of Crypt is to determine the relative maturity of crypto assets by looking at volatility and valuation forecast against traditional market institutions.
 
-How volatile are crypto assets?
-How predictable are crypto assets compared to traditional market ETFs?
-How do the valuation forecasts of crypto assets perform against traditional market ETFs?
-Which determinants most affect crypto-asset price movement?
+- How volatile are crypto assets?
+- How predictable are crypto assets compared to traditional market ETFs?
+- How do the valuation forecasts of crypto assets perform against traditional market ETFs?
+- Which determinants most affect crypto-asset price movement?
 
 
 
 ### Data
-Bitwise - ETF (Tracks top ten cryptocurrency by measure of market capitalization)
-SPY - ETF (Exchange-Traded Fund that tracks SP500 Index)
-QQQM - ETF (Exchange-Traded Fund that tracks NASDAQ Composite Index)
-DIA - ETF (Exchange-Traded Fund that tracks Dow Jones Industrial Average Index)
-BLOK - Index Fund (Crypto and Blockchain Related Industries)
+- Bitwise - ETF (Tracks top ten cryptocurrency by measure of market capitalization)
+- SPY - ETF (Exchange-Traded Fund that tracks SP500 Index)
+- QQQM - ETF (Exchange-Traded Fund that tracks NASDAQ Composite Index)
+- DIA - ETF (Exchange-Traded Fund that tracks Dow Jones Industrial Average Index)
+- BLOK - Index Fund (Crypto and Blockchain Related Industries)
+
 All datasets contain the columns 'Open', 'High', 'Low', 'Close', 'Adj Close', and 'Volume'. 'Open' and 'Close' are the prices of the ETFs taken at 9:30 AM and 4:00 PM. The 'High' and 'Low' are points during the day that marks the peak and trough of each ETF's price. The adjusted close ('Adj Close') is the price of the ETF after corporate actions which may affect valuation after accounting. DIA, SPY, and BLOK start on March 3rd, 2020. BITW starts on December 10, 2020 and QQQM starts on October 13, 2020. All data end on November 17, 2021. The rows are timestamped with the day of month only for weekdays, it does not include data from weekends and bank holidays (stock markets are closed).
 
 The data for United States unemployment rate is taken from https://data.oecd.org/unemp/unemployment-rate.htm, while the information regarding the monthly U.S. inflation rate is taken from Statista Research Department - November 15, 2021. Columns 'daily_price', 'return_daily_perc', and 'Volume' from dowjones, sp500, nasdaq, bitwise, and blok datasets are added to the new dataset.
